@@ -78,7 +78,7 @@ jobs:
           ./scripts/languagelist_updater.sh
           mkdir out
 
-      - Build Release 
+      
       - name: Build Debug .apk
         run: |
           # Build the launcher
